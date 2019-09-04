@@ -4,6 +4,59 @@
     <string name="str01">这里是问题</string>
     <string name="str02">这里是答案\n（1）。。。\n（2）。。。\n（3）。。。</string>
 
+    <string-array name="question">
+        <item >这里是问题1</item>
+        <item >这里是问题2</item>
+        <item >这里是问题3</item>
+        <item >这里是问题4</item>
+        <item >这里是问题5</item>
+        <item >这里是问题6</item>
+        <item >这里是问题7</item>
+        <item >这里是问题8</item>
+        <item >这里是问题9</item>
+        <item >这里是问题10</item>
+        <item >这里是问题11</item>
+        <item >这里是问题12</item>
+        <item >这里是问题13</item>
+        <item >这里是问题14</item>
+        <item >这里是问题15</item>
+        <item >这里是问题16</item>
+        <item >这里是问题17</item>
+        <item >这里是问题18</item>
+        <item >这里是问题19</item>
+        <item >这里是问题20</item>
+        <item >这里是问题21</item>
+        <item >这里是问题22</item>
+        <item >这里是问题23</item>
+        <item >这里是问题24</item>
+    </string-array>
+
+    <string-array name="answer">
+        <item >这里是答案1\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案2\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案3\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案4\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案5\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案6\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案7\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案8\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案9\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案10\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案11\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案12\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案13\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案14\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案15\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案16\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案17\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案18\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案19\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案20\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案21\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案22\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案23\n（1）。。。\n（2）。。。\n（3）。。。</item>
+        <item >这里是答案24\n（1）。。。\n（2）。。。\n（3）。。。</item>
+    </string-array>
 
     <string name="str44">是否对你有帮助？</string>
     <string name="str45">有用</string>

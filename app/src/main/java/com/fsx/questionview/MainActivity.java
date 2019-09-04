@@ -13,11 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
 
-    private int[] stringIds = new int[50];
-    private int[] stringIds2 = new int[50];
-    private MyQuestionView[] views = new MyQuestionView[stringIds.length];
+    private String[] question ;
+    private String[] answer ;
     private int lastShow = -1;//记录上一个打开的答案
-
+    private MyQuestionView[] views;
 
 
     @Override
@@ -30,15 +29,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         LinearLayout linearLayout = findViewById(R.id.ll_question_list);
-        for (int i = 0;i<50;i++){
-            stringIds[i] = R.string.str01;
-            stringIds2[i] = R.string.str02;
-        }
 
+        question = getResources().getStringArray(R.array.question);
+        answer = getResources().getStringArray(R.array.answer);
+        views = new MyQuestionView[question.length];
         MyQuestionView myQuestionView;
-        for (int i = 0; i < stringIds.length; i++) {
+        for (int i = 0; i < answer.length; i++) {
             myQuestionView = new MyQuestionView(this);
-            myQuestionView.setContent(stringIds[i], stringIds2[i]);
+            myQuestionView.setContent(question[i], answer[i]);
             linearLayout.addView(myQuestionView, i);
             views[i] = myQuestionView;//将每个myQuestionView添加到数组里
             myQuestionView.setmInterface(i, new MyQuestionView.OnClickListenerInterface() {

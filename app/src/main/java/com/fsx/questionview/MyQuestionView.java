@@ -40,7 +40,7 @@ public class MyQuestionView extends LinearLayout implements View.OnClickListener
 
     }
 
-    public void setContent(int question, int answer) {
+    public void setContent(String question, String answer) {
         tv_wt.setText(question);
         tv_daAn.setText(answer);
     }
