@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private int lastShow = -1;//记录上一个打开的答案
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
