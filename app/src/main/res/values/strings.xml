@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FSX Application</string>
+
+    <string name="str01">这里是问题</string>
+    <string name="str02">这里是答案\n（1）。。。\n（2）。。。\n（3）。。。</string>
+
+
+    <string name="str44">是否对你有帮助？</string>
+    <string name="str45">有用</string>
+    <string name="str46">无用</string>
+
+
+
+
+
+</resources>
