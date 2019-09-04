@@ -13,14 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
 
-    private LinearLayout linearLayout;
-
-    private int[] stringIds = new int[]{R.string.str01, R.string.str01, R.string.str01, R.string.str01,
-            R.string.str01, R.string.str01, R.string.str01, R.string.str01, R.string.str01,
-            R.string.str01, R.string.str01, R.string.str01};
-    private int[] stringIds2 = new int[]{R.string.str02, R.string.str02, R.string.str02, R.string.str02,
-            R.string.str02, R.string.str02, R.string.str02, R.string.str02, R.string.str02,
-            R.string.str02, R.string.str02, R.string.str02};
+    private int[] stringIds = new int[50];
+    private int[] stringIds2 = new int[50];
     private MyQuestionView[] views = new MyQuestionView[stringIds.length];
     private int lastShow = -1;//记录上一个打开的答案
 
@@ -31,11 +25,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+
     }
 
 
     private void initView() {
-        linearLayout = findViewById(R.id.ll_question_list);
+        LinearLayout linearLayout = findViewById(R.id.ll_question_list);
+        for (int i = 0;i<50;i++){
+            stringIds[i] = R.string.str01;
+            stringIds2[i] = R.string.str02;
+        }
 
         MyQuestionView myQuestionView;
         for (int i = 0; i < stringIds.length; i++) {
